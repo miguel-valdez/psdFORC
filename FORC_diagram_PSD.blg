@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: FORC_diagram_PSD.aux
+The style file: elsarticle-harv.bst
+Database file #1: references.bib
+I was expecting a `,' or a `}'---line 144 of file references.bib
+ : 
+ : //publisher={Wiley Online Library}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in OConbhui2017
+Warning--empty journal in ValdezGrijalva2017
+Warning--empty journal in ValdezGrijalva2017B
+You've used 23 entries,
+            2821 wiz_defined-function locations,
+            814 strings with 10031 characters,
+and the built_in function-call counts, 12227 in all, are:
+= -- 1223
+> -- 721
+< -- 9
++ -- 273
+- -- 246
+* -- 1168
+:= -- 2222
+add.period$ -- 66
+call.type$ -- 23
+change.case$ -- 199
+chr.to.int$ -- 23
+cite$ -- 26
+duplicate$ -- 403
+empty$ -- 753
+format.name$ -- 317
+if$ -- 2385
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 24
+newline$ -- 94
+num.names$ -- 92
+pop$ -- 177
+preamble$ -- 1
+purify$ -- 174
+quote$ -- 0
+skip$ -- 296
+stack$ -- 0
+substring$ -- 683
+swap$ -- 47
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 204
+warning$ -- 3
+while$ -- 100
+width$ -- 0
+write$ -- 273
+(There was 1 error message)

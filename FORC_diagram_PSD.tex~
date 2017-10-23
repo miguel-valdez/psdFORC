@@ -1,0 +1,252 @@
+\documentclass[review,authoryear]{elsarticle}
+%-----------------------------------------------------
+
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{lineno}
+\usepackage{caption}
+
+\journal{Earth and Planetary Science Letters}
+
+\bibliographystyle{elsarticle-harv}
+\setcitestyle{authoryear}
+
+\graphicspath{{./figs/}}
+
+\newcommand{\roughly}{{\raise.17ex\hbox{$\scriptstyle\sim$}}}
+\newcommand{\nm}{\,\text{nm}}
+\newcommand{\mT}{\,\text{mT}}
+%-----------------------------------------------------
+
+\begin{document}
+\allowdisplaybreaks
+
+\begin{frontmatter}
+
+\title{Pseudo single-domain effects on the first order reversal curve (FORC) diagram of greigite dispersions}
+
+\author[ic]{Miguel~A.~Valdez-Grijalva\corref{co}}
+\ead{m.valdez-grijalva13@imperial.ac.uk}
+\cortext[co]{Corresponding author}
+
+\author[ic]{Adrian~R.~Muxworthy}
+\author[ed]{Wyn~Williams}
+\author[ed]{Lesleis~Nagy}
+\author[ed]{P{\'a}draig~{\'O}~Conbhu{\'i}}
+\author[au]{Andrew~P.~Roberts}
+
+\address[ic]{Department of Earth Science and Engineering, Imperial College London, SW7 2BP, UK}
+\address[ed]{School of GeoSciences, University of Edinburgh, EH9 3FE, UK}
+\address[au]{Research School of Earth Sciences, Australian National University, 2601, Australia}
+
+\begin{abstract}
+A micromagnetic calculation of the first-order reversal curve (FORC) diagram properties of noninteracting greigite (Fe$_3$S$_4$) dispersions in the single-domain (SD) to single-vortex (SV) size range is presented. The SD signal was found to be in excellent agreement with previous SD coherent-rotation studies. The FORC diagrams were found to be highly sensitive to the magnetic domain state of the particles. A transitional range from $\roughly$50$\nm$ to $\roughly$70$\nm$ was identified for which a mixture of SD and SV behaviour produce complex FORC diagrams. Particles larger than $\roughly$70$\nm$ show a purely SV behaviour with the remanent state for all particles in the ensemble a vortex state. Classic interpretations of the FORC diagram hold for SD ensembles whereas, for SV ensembles the FORC distribution maximum should not be interpreted as the coercivity of the sample but as the field intensity necessary to unravel the magnetic vortex structure of these particles.
+\end{abstract}
+
+\begin{keyword}
+Greigite \sep Pseudo Single-Domain \sep Micromagnetics \sep FORC diagram
+\PACS 91.25.F- \sep 91.60.Pn \sep 91.25.fa
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+%-----------------
+
+\section{Introduction}
+
+First-order reversal curve (FORC) diagrams are a powerful tool in rock magnetic studies which allow for mineral and domain state identification as well as quantification of magnetostatic interactions between particles \citep{Roberts2000,Roberts2014}. As such, they have been the subject of numerical studies aiming to relate the individual behaviour of the magnetic particles and small assemblages to the experimental bulk properties \citep{Carvallo2003,Carvallo2006,Muxworthy2004,Muxworthy2005,Newell2005,Harrison2014}.\par
+
+The FORC diagram properties of single-domain (SD) particles have been studied in both the noninteracting \citep{Newell2005} and interacting case \citep{Muxworthy2004,Muxworthy2005}. However, iron-rich minerals of the utmost importance to the Earth Sciences like magnetite (Fe$_3$O$_4$) and greigite (Fe$_3$S$_4$) do not posses a uniaxial MCA but rather, cubic. Also, these studies do not take into account size effects as they effectively treat each particle as a single magnetic dipole.\par
+
+The noninteracting FORC signal of SD particles with cubic MCA was recently calculated by \citet{ValdezGrijalva2017} whereas, the effects of magnetostatic interactions by \citet{Carvallo2003,Carvallo2006,Muxworthy2004,Muxworthy2005}. However, the FORC diagram of particles with nonuniform magnetisations, the so-called pseudo single-domain (PSD) particles, is not yet fully understood.\par
+
+In this study, we employ a micromagnetic finite element method (FEM) to study the FORC diagram properties of noninteracting ensembles of PSD greigite. The magnetic parameters of greigite used in this investigation are: the saturation magnetisation $M_\text{S}=3.51\,\mu_\text{B}\,\text{p.c.u.}$ \citep{Guowei2014}; the exchange stiffness constant $A=2\times10^{-12}\,\text{J}/\text{m}$ \citep{Chang2008}; and the first MCA constant $K_1=-1.7\times10^4\,\text{J}/\text{m}^3$ \citep{Winklhofer2014}.\par
+%-----------------------------------------------------
+
+\section{Methodology}
+\subsection{The micromagnetic algorithm}
+A ferromagnetic material{\textemdash}neglecting thermal and magnetostrictive effects{\textemdash}has a Gibbs free-energy functional given by \citep{Brown}
+{\par\nobreak\noindent}
+\begin{equation}
+E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}} + \phi_{\text{external}})\,\text{d}^3 \boldsymbol{r},
+\end{equation}
+
+with $\Omega$ the ferromagnetic volume. Here,
+{\par\nobreak\noindent}
+\begin{equation}
+\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2
+\end{equation}
+
+ with the reduced magnetisation vector $\boldsymbol{m}$, is the expression for the energy density due to the quantum-mechanical exchange forces \citep{Landau1935}.
+{\par\nobreak\noindent}
+\begin{equation}
+\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
+\end{equation}
+
+with $\gamma_i$ the direction cosines, is the MCA energy density in the cubic anisotropy system. In terms of the reduced magnetisation vector components this becomes:
+{\par\nobreak\noindent}
+\begin{equation}
+\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
+\end{equation}
+
+where $K_2$ has been neglected since $K_1$ is the dominant term at room temperature. The magnetostatic self-energy density:
+{\par\nobreak\noindent}
+\begin{equation}
+\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{stray}},
+\end{equation}
+
+with $\boldsymbol{H}_{\text{stray}}$ the stray field produced by the ferromagnetic body. Finally, the energy density due to an external magnetic field $\boldsymbol{H}_{\text{external}}$:
+{\par\nobreak\noindent}
+\begin{equation}
+\phi_{\text{external}}=-\mu_0M_\text{S}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{external}}.
+\end{equation}\par
+
+It is known that the system will evolve towards an equilibrium state with minimal Gibbs free-energy \citep{Brown}. In this study we utilise a modified gradient descent method with the aim of finding the equilibrium magnetisation.\par
+
+The discretisation of the spatial domain is achieved by a decomposition of the volume into tetrahedral elements. This allows for arbitrary geometries to be modelled. To model accurately nonuniform magnetisations the spatial discretisation in the model should be smaller than the exchange length $l_\text{exch.} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch.} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ has been chosen for all the models. The non-local problem of calculating the stray field is resolved by a hybrid finite-element/boundary-element formulation \citep{Fredkin1990}.\par
+
+\subsection{The FORC model}
+FORC diagrams are constructed from a class of partial hysteresis curves called first order reversal curves, each starting at some value of the applied field $B_a$ along the main hysteresis branch. A magnetisation function on two variables $M=M(B_a, B_b)$ is thus obtained. The FORC distribution $\rho$ is then defined as \citep{Mayergoyz1986}:
+{\par\nobreak\noindent}
+\begin{equation}
+\rho=-\frac{1}{2}\frac{\partial^2 M}{\partial B_a \partial B_b}.
+\end{equation}\par
+
+Once $M(B_a, B_b)$ is obtained, the calculation of $\rho(B_a, B_b)$ is done by least-square fitting a degree 2 polynomial surface $a_0 + a_1 B_a + a_2 B_b + a_3 B_a B_b + a_4 B_a^2 + a_5 B_b^2 = 0$ on a subgrid of $M(B_a, B_b)$ centered around $B_a, B_b$ determined by the so-called smoothing factor (SF) and including (2$\times$SF + 1)$^2$ points; the value of $\rho$ is then simply $-a_3/2$. Contour plots of the FORC distribution are called FORC diagrams. Usually they are presented in the rotated axes $B_c=(B_b - B_a)/2$, $B_u=(B_b + B_a)/2$.\par
+
+The methodology of \citet{ValdezGrijalva2017} of obtaining the FORC response of an individual particle for external fields sampled over a regular grid is not suited for this study as we are concerned with micromagnetic calculations which can be very time-consumming as the particle size grows. Instead, 500 random field orientations from a distribution uniform over the sphere have been chosen (Fig. \ref{FIG_01}). Also, like \citet{ValdezGrijalva2017} we note that for each particle/field-orientation, we only need to calculate the main branch of the hysteresis loop and the few reversal curves starting at the different switching fields along the main branch. These considerations vastly reduce the amount of calculations needed without loss of generality. The external field rate of change for all models was 1$\mT$ with a saturation field of 250$\mT$ thus, 501 reversal curves were calculated for each particle/field-orientation.\par
+
+Scanning electron microscopy (SEM) and transmission electron microscopy (TEM) micrographs of naturally occurring greigite samples \citep{Snowball1997, Vasiliev2008} reveal that greigite tends to grow authigenically as well-defined regular truncated octahedral particles. Also, micromagnetic calculations by \citet{ValdezGrijalva2017B} for truncated octahedral greigite particles show the SD--PSD threshold to be $\roughly$53$\nm$. For this, in this study we model the FORC diagram of noninteracting ensembles of greigite particles sized 30$\nm$--80$\nm$ (size normalised to the volume of a cube) every 2$\nm$ as this range should cover the transition from SD to PSD behaviour.\par
+
+%-----------------------------------------------------
+
+\section{Results and Discussion}
+A comparison with the dipolar, coherent rotation model of \citet{ValdezGrijalva2017} shows excellent agreement (Fig. \ref{FIG_02}) for all particles up to 48$\nm$, with their FORC diagrams showing the same pattern. This means that in ensembles with grains smaller than 50$\nm$ the hysteretic behaviour is dominated by purely SD particles with coherent rotations as evidenced by their FORC diagram (Fig. \ref{FIG_02}).\par
+
+From 50$\nm$ the FORC diagram begins its departure from a SD, coherent rotation-dominated behaviour as the tight boomerang-shaped FORC diagram pattern exhibited by the SD greigite breaks up into a more fragmented pattern (Figs. \ref{FIG_03}a--f). This change is driven initially by the particles with a hard axis close to the applied field nucleating hard-aligned vortices (HAVs) for negative values of the applied field. Even though the nucleation of HAVs is happening for particles with sizes below the zero-field SD--PSD threshold $d_0=\roughly$53$\nm$ \citep{ValdezGrijalva2017B}, this is expected as the nucleation of a vortex greatly reduces the Gibbs free-energy due to the external and demagnetising (stray) fields. From 56$\nm$ (Figs. \ref{FIG_03}d--f) an appreciable positive source in the FORC distribution appears along the $B_u=0$ axis at $B_c=\roughly 52\mT$; this contribution represents the unravelling of vortex states on the way to saturation. The negative elongated feature of the SD diagram moves towards lower values of $B_c, B_u$. Also, the first sources for $B_u > 0$ appear at these sizes; these are elongated features at a 45 degree angle from the $B_u=0$ axis, different from the widening usually attributed to the presence of magnetostatic interactions \citep{Muxworthy2004,Muxworthy2005}.\par
+
+For these early-PSD particles, vortex nucleation is only occurring for negative values of the applied field thus, the drastic change in the FORC diagram is not reflected in a change in the remanence up to 72$\nm$ whereas the coercivities do show a sharp decrease from 48$\nm$ (Fig. \ref{FIG_04}b). The monotonically-decreasing trend of the coercivites is preserved up to 62$\nm$ when the coercivity rises from $B_{CR}=\roughly$15$\mT$ to $B_{CR}=\roughly$20$\mT$ for particle size 68$\nm$. From there, the coercivities again decrease, now accompanied by a sharp decrease in the remanence (Fig. \ref{FIG_04}b). The notorious drop in the values of the remanence is driven by particles nucleating vortices now for still positive values of the applied field from 68$\nm$ onwards, but more markedly from 74$\nm$, when a significant fraction of particles with easy axis close to the applied field nucleate easy aligned vortices (EAVs) which become the remanent magnetic domain state. For 76$\nm$ all the particles are in a vortex remanent state. This is reflected in the Day plot (Fig. \ref{FIG_04}a) by the particles sized 76$\nm$ and larger plotting in the region usually designated as multi-domain (MD).\par
+
+Particles sized 62$\nm$ to 72$\nm$ move away from the Day plot region usually attributed to SD grains (Fig. \ref{FIG_04}a) to a region with high remanence but larger values of the coercivity of remanence $B_{CR}$ to $B_C$ ratio. These sizes coincide with the anomalous behaviour of the coercivity rising for these sizes (\ref{FIG_04}b). The FORC diagrams for these sizes are the most complex of all, showing a variety of X-shaped features and the appearance of a substantial symmetric negative source at $B_c=\roughly$5$\mT$, $B_u=\roughly$-10$\mT$ (Fig. \ref{FIG_05}). The elongated negative feature becomes more faint with size. At the same time, the positive sources for $B_u>0$ become stronger and moving towards the $B_C=0$ axis with size. Strong positive FORC distribution sources for $B_u>0$ along the $B_c=0$ axis are expected for the larger MD grains \citep{Roberts2006} and this behaviour might be representative of that tendency.\par
+
+The elongated negative feature typical of cubic MCA SD particles \citep{ValdezGrijalva2017} disappears for the particles sized 74$\nm$ and larger (Fig. \ref{FIG_06}). The symmetric negative feature near the origin becomes stronger and of a magnitude comparable to the largest positive source. Indeed, for 76$\nm$ and 78$\nm$ the negative source is larger than the highest positive one. The elongated positive sources for $B_u>0$ stay strong. Towards 80$\nm$ a somewhat faint negative source appears close to the positive source situated along the $B_u=0$ axis. These diagrams represent the contribution of purely PSD particles, that is, ensembles of particles that are all in a vortex remanent state. It makes sense then that these are somewhat less complex than the diagrams of ensembles comprised of a fraction of particles still in the SD state as well as PSD.\par
+
+Two averaged-over-size diagrams were obtained for skewed-normal particle size distributions; one skewed towards SD (Fig. \ref{FIG_07}a), the other towards PSD (Fig. \ref{FIG_07}b). The SD-dominant diagram shows the basic boomerang-shaped pattern is preserved when the PSD contribution is small. The PSD-dominant diagram has a significant spread towards positive $B_u$. This effect is purely due to domain state as opposed to an effect of magnetostatic interactions. Also, the maximum for the SD-dominant occurs along the $B_u=0$ axis at $B_c=\roughly$25$\mT$ whereas, for the PSD-dominant this is at $B_c=\roughly$52$\mT$. This is critical because it shows a departure from the usual interpretation of FORC diagram, i.e., that this maximum should represent the coercivity of the mineral in question. This interpretation holds for the SD grains, as this source does coincide with the value of the coercivity for SD particles. However, this does not hold for the PSD grains as their coercivity decreases with size while the position of the maximum goes towards higher values of $B_c$ along the $B_u=0$ axis. Instead, for PSD grains this maximum should be interpreted as the applied field necessary to unravel the vortices.\par
+%-----------------------------------------------------
+
+\section{Conclusion}
+A micromagnetic FEM was employed for the calculation of the FORC diagrams of noninteracting ensembles of greigite across a size range that spans the SD to PSD threshold. 500 random orientations from a distribution uniform over the sphere were used for each size. This choice was found to be in excellent agreement with previous calculations for SD particles using a regular grid of field orientations (Fig. \ref{FIG_02}).\par
+
+The FORC diagrams showed to be extremely sensitive to the domain state of the particles. As soon as a fraction of particles starts nucleating vortices, at $\roughly$50$\nm$, this is reflected in the FORC diagram. The same cannot be said of the Day plot which treats the particles up to 60$\nm$ as SD.\par
+
+An anomalous behaviour for particles sized 62$\nm$ to 72$\nm$ consisting in an increase of the coercivity with size was found. These particles plot in an unexpected region of the Day plot. The anomaly disappears for particles larger than these, and from 76$\nm$ they appear in the region usually attributed to MD grains. This potentially means they should be interpreted as MD grains and the PSD behaviour limited to the range 50$\nm$ to 74$\nm$.\par
+
+Finally, it is possible that previous notions on how the FORC diagrams should be interpreted need to be updated. This is illustrated by the disconnect on what the FORC distribution maxima mean for SD or PSD particles. For SD particles, the typical interpretation of the maximum position coinciding with the coercivity of the sample holds. However, for PSD-dominated samples, the position of the maximum occurs at a value much higher than the coercivity of the sample and is actually related to the field intensity necessary to unravel the vortices formed as the remanent states.\par
+%-----------------------------------------------------
+
+\section*{Acknowledgments}
+This research was partially funded by Instituto Mexicano del Petr\'oleo (M. A. Valdez-Grijalva) as well as by NERC grant NE/J020508/1 (A. R. Muxworthy and W. Williams).\par
+%-----------------------------------------------------
+
+\def\urlprefix{}
+\bibliography{references}
+\newpage
+%-----------------------------------------------------
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig1}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_01_HR.pdf}
+\includegraphics[width=\textwidth]{grain_bw.pdf}
+\caption{Model geometry and field orientations. Natural greigite samples show the most common morphology for authigenic greigite is truncated octahedral. To avoid the high density of field orientations necessary near the sphere poles when using a regular grid, 500 random field orientations from a distribution uniform over the sphere were chosen.}
+\label{FIG_01}
+\end{figure}
+
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig2}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_02_HR.pdf}
+\includegraphics[width=\textwidth]{comparison_bw.pdf}
+\caption{Comparison between dipole and micromagnetic model. a) Dipole model; the FORC diagram (SF=4) of a noninteracting ensemble of SD greigite (from \citet{ValdezGrijalva2017}). b) Micromagnetic model; the FORC diagram (SF=4) of a noninteracting ensemble of 48$\nm$-sized truncated octahedral greigite particles (this study). Up to 48$\nm$ the FORC diagram is that of an ensemble of SD particles. For particles larger than 48$\nm$ PSD effects become noticeable.}
+\label{FIG_02}
+\end{figure}
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig3}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_03_HR.pdf}
+\includegraphics[width=\textwidth]{forcs_50-60_bw.pdf}
+\caption{FORC diagrams 50$\nm$ to 60$\nm$. All diagrams with SF=4. a) 50$\nm$; b) 52$\nm$; c) 54$\nm$; d) 56$\nm$; e) 58$\nm$; f) 60$\nm$. As soon as a fraction of particles in the sample start nucleating vortices this is reflected in the FORC diagram patterns. At these sizes the Day plot is unresponsive to the fundamental domain state change that has taken place for a fraction of the particles.}
+\label{FIG_03}
+\end{figure}
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig7}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_07_HR.pdf}
+\includegraphics[width=\textwidth]{dayplot_MrsBc.pdf}
+\caption{Day plot and remanence/coercivity against size. a) The Day plot shows the particles up to 60$\nm$ to be SD; however, we know from the micromagnetic solutions that vortices are formed from 50$\nm$ onward. Particles sized 62$\nm$ to 72$\nm$ plot in an unexpected region. Particles larger than 74$\nm$ plot as MD grains. b) Remanence (circles) and coercivity (triangles) against particle size. Remanences are high up to 72$\nm$ since vortices are only nucleated for negative values of the applied field. For particles larger than this the remanent state is a vortex and thus the sharp decrease in remanence. The coercivities decrease as soon as PSD behaviour is present. However, an anomalous region with increasing coercivities with size coincides with the sizes for which the Day plot is too, anomalous.}
+\label{FIG_04}
+\end{figure}
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig4}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_04_HR.pdf}
+\includegraphics[width=\textwidth]{forcs_62-72_bw.pdf}
+\caption{FORC diagrams 62$\nm$ to 72$\nm$. All diagrams with SF=4. a) 62$\nm$; b) 64$\nm$; c) 66$\nm$; d) 68$\nm$; e) 70$\nm$; f) 72$\nm$. These sizes correspond to the anomalous behaviour of the coercivities and the Day plot. At these sizes, a mixture of SD behaviour and PSD behaviour is present, making them the most complex of all the diagrams calculated in this study.}
+\label{FIG_05}
+\end{figure}
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig5}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_05_HR.pdf}
+\includegraphics[width=\textwidth]{forcs_74-80_bw.pdf}
+\caption{FORC diagrams 74$\nm$ to 80$\nm$. All diagrams with SF=4. a) 74$\nm$; b) 76$\nm$; c) 78$\nm$; d) 80$\nm$. At these sizes (except 74$\nm$), all particles are in a remanent vortex state. The FORC diagrams are somewhat less complex than those for particles 62$\nm$ to 72$\nm$ as all traces of SD behaviour are gone. These sizes plot in the MD region of the Day plot. The maximum of the FORC distribution has moved to $B_c=\roughly$52$\mT$ along the $B_u=0$ axis, showing a disconnect with the coercivity of the ensembles which are lower than they would be for SD ensembles.}
+\label{FIG_06}
+\end{figure}
+
+%\begin{figure}
+%\captionsetup{labelformat=empty}
+%\caption{
+%\label{fig6}}
+%\end{figure}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{Figure_06_HR.pdf}
+\includegraphics[width=\textwidth]{FORC_avg_SF4_zoom_BcBu_flat_BW.pdf}
+\caption{Averaged-over-size FORC diagrams. A higher smoothing factor SF=8 is shown. a) The FORC diagram of an ensemble of particles with a skewed normal size distribution with skew toward the SD particles. The basic boomerang-shaped pattern is preserved. b) The FORC diagram of an ensemble of particles with a skewed normal size distribution with skew toward the PSD particles. Significant spread towards positive $B_u$ is observed as well as negative sources not present for SD ensembles.}
+\label{FIG_07}
+\end{figure}
+%-----------------------------------------------------
+
+\end{document}
