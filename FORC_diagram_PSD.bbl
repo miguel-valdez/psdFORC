@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{31}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -60,6 +60,12 @@ Harrison, R.~J., Lascu, I., 2014. Forculator: A micromagnetic tool for
   15~(12), 4671--4691.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014GC005582}
 
+\bibitem[{Kr{\'a}sa et~al.(2011)Kr{\'a}sa, Muxworthy, and Williams}]{Krasa2011}
+Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
+  magnetic properties of {2-D} magnetite particle arrays. Geophys. J. Int.
+  185~(1), 167--180.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.2011.04956.x}
+
 \bibitem[{Landau and Lifshitz(1935)}]{Landau1935}
 Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
   permeability in ferromagnetic bodies. Phys. Z. Sowjetunion 8~(153), 101--114.
@@ -75,6 +81,12 @@ Muxworthy, A., Heslop, D., Williams, W., 2004. Influence of magnetostatic
 Muxworthy, A., Williams, W., 2005. Magnetostatic interaction fields in
   first-order-reversal-curve diagrams. J. Appl. Phys. 97~(6), 063905.
 \newline\urlprefix\url{https://dx.doi.org/10.1063/1.1861518}
+
+\bibitem[{Muxworthy and Williams(2006)}]{Muxworthy2006}
+Muxworthy, A.~R., Williams, W., 2006. Critical single-domain/multidomain grain
+  sizes in noninteracting and interacting elongated magnetite particles:
+  {I}mplications for magnetosomes. J. Geophys. Res. 111~(B12).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004588}
 
 \bibitem[{Nagy et~al.(2017)Nagy, Williams, Muxworthy, Fabian, Almeida,
   {\'O}~Conbhu{\'i}, and Shcherbakov}]{Nagy2017}
