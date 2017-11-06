@@ -12,45 +12,45 @@ Warning--empty journal in OConbhui2017
 Warning--empty journal in Roberts2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2017B
-You've used 31 entries,
+You've used 32 entries,
             2821 wiz_defined-function locations,
-            871 strings with 11921 characters,
-and the built_in function-call counts, 16843 in all, are:
-= -- 1666
-> -- 1041
+            877 strings with 12172 characters,
+and the built_in function-call counts, 17378 in all, are:
+= -- 1715
+> -- 1084
 < -- 11
-+ -- 394
-- -- 357
-* -- 1633
-:= -- 3066
-add.period$ -- 89
-call.type$ -- 31
-change.case$ -- 277
-chr.to.int$ -- 31
-cite$ -- 35
-duplicate$ -- 545
-empty$ -- 1010
-format.name$ -- 456
-if$ -- 3272
++ -- 410
+- -- 372
+* -- 1687
+:= -- 3169
+add.period$ -- 92
+call.type$ -- 32
+change.case$ -- 287
+chr.to.int$ -- 32
+cite$ -- 36
+duplicate$ -- 562
+empty$ -- 1036
+format.name$ -- 474
+if$ -- 3373
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 32
-newline$ -- 125
-num.names$ -- 124
-pop$ -- 248
+missing$ -- 33
+newline$ -- 129
+num.names$ -- 128
+pop$ -- 257
 preamble$ -- 1
-purify$ -- 243
+purify$ -- 252
 quote$ -- 0
-skip$ -- 398
+skip$ -- 411
 stack$ -- 0
-substring$ -- 911
-swap$ -- 65
+substring$ -- 922
+swap$ -- 67
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 276
+type$ -- 285
 warning$ -- 4
-while$ -- 133
+while$ -- 136
 width$ -- 0
-write$ -- 367
+write$ -- 379
 (There was 1 error message)

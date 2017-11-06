@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{32}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -38,6 +38,13 @@ Day, R., Fuller, M., Schmidt, V.~A., 1977. Hysteresis properties of
 Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
   Magnetic fingerprints of sub-100 nm {Fe} dots. Phys. Rev. B 75~(13), 134405.
 \newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
+
+\bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
+  Horng}]{Egli2010}
+Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C.-S., 2010.
+  Detection of noninteracting single domain particles using first-order
+  reversal curve diagrams. Geochem. Geophys. Geosyst. 11~(1).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002916}
 
 \bibitem[{Fredkin and Koehler(1990)}]{Fredkin1990}
 Fredkin, D.~R., Koehler, T.~R., 1990. Hybrid method for computing demagnetizing

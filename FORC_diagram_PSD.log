@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 NOV 2017 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  6 NOV 2017 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,35 +285,36 @@ tostric-tive ef-fects|has
  []
 
 [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (./FORC_diagram_PSD.bbl
-[14] [15] [16] [17]) [18] <./figs/grain_color.pdf, id=77, 963.6pt x 963.6pt>
+[14] [15] [16] [17] [18]) [19]
+<./figs/grain_color.pdf, id=81, 963.6pt x 963.6pt>
 File: ./figs/grain_color.pdf Graphic file (type pdf)
 
 <use ./figs/grain_color.pdf>
 Package pdftex.def Info: ./figs/grain_color.pdf used on input line 198.
 (pdftex.def)             Requested size: 345.0pt x 344.99901pt.
 
-<./figs/comparison.pdf, id=78, 771.26541pt x 329.55121pt>
+<./figs/comparison.pdf, id=82, 771.26541pt x 329.55121pt>
 File: ./figs/comparison.pdf Graphic file (type pdf)
 
 <use ./figs/comparison.pdf>
 Package pdftex.def Info: ./figs/comparison.pdf used on input line 212.
 (pdftex.def)             Requested size: 345.0pt x 147.41164pt.
 
-<./figs/FORCs_54_60_66_76.pdf, id=79, 767.94104pt x 664.59492pt>
-File: ./figs/FORCs_54_60_66_76.pdf Graphic file (type pdf)
+<./figs/FORCs_50_60_66_76.pdf, id=83, 767.94104pt x 664.59492pt>
+File: ./figs/FORCs_50_60_66_76.pdf Graphic file (type pdf)
 
-<use ./figs/FORCs_54_60_66_76.pdf>
-Package pdftex.def Info: ./figs/FORCs_54_60_66_76.pdf used on input line 225.
+<use ./figs/FORCs_50_60_66_76.pdf>
+Package pdftex.def Info: ./figs/FORCs_50_60_66_76.pdf used on input line 225.
 (pdftex.def)             Requested size: 345.0pt x 298.56805pt.
 
-<./figs/dayplot_MrsBc.pdf, id=80, 925.05597pt x 346.89601pt>
+<./figs/dayplot_MrsBc.pdf, id=84, 925.05597pt x 346.89601pt>
 File: ./figs/dayplot_MrsBc.pdf Graphic file (type pdf)
 
 <use ./figs/dayplot_MrsBc.pdf>
 Package pdftex.def Info: ./figs/dayplot_MrsBc.pdf used on input line 238.
 (pdftex.def)             Requested size: 345.0pt x 129.37639pt.
 
-<./figs/forc_80nm_annotated.pdf, id=81, 442.43694pt x 605.33354pt>
+<./figs/forc_80nm_annotated.pdf, id=85, 442.43694pt x 605.33354pt>
 File: ./figs/forc_80nm_annotated.pdf Graphic file (type pdf)
 
 <use ./figs/forc_80nm_annotated.pdf>
@@ -321,7 +322,7 @@ Package pdftex.def Info: ./figs/forc_80nm_annotated.pdf used on input line 251.
 
 (pdftex.def)             Requested size: 345.0pt x 472.04742pt.
 
-<./figs/forc_54nm_annotated.pdf, id=82, 445.18408pt x 607.79195pt>
+<./figs/forc_54nm_annotated.pdf, id=86, 445.18408pt x 607.79195pt>
 File: ./figs/forc_54nm_annotated.pdf Graphic file (type pdf)
 
 <use ./figs/forc_54nm_annotated.pdf>
@@ -329,7 +330,7 @@ Package pdftex.def Info: ./figs/forc_54nm_annotated.pdf used on input line 264.
 
 (pdftex.def)             Requested size: 345.0pt x 471.03389pt.
 
-<./figs/forc_62nm_annotated.pdf, id=83, 445.18408pt x 610.68275pt>
+<./figs/forc_62nm_annotated.pdf, id=87, 445.18411pt x 610.68275pt>
 File: ./figs/forc_62nm_annotated.pdf Graphic file (type pdf)
 
 <use ./figs/forc_62nm_annotated.pdf>
@@ -337,7 +338,7 @@ Package pdftex.def Info: ./figs/forc_62nm_annotated.pdf used on input line 277.
 
 (pdftex.def)             Requested size: 345.0pt x 473.27425pt.
 
-<./figs/nucleation_annihilation_fields.pdf, id=84, 925.05597pt x 346.89601pt>
+<./figs/nucleation_annihilation_fields.pdf, id=88, 925.05597pt x 346.89601pt>
 File: ./figs/nucleation_annihilation_fields.pdf Graphic file (type pdf)
 
 <use ./figs/nucleation_annihilation_fields.pdf>
@@ -345,26 +346,26 @@ Package pdftex.def Info: ./figs/nucleation_annihilation_fields.pdf used on inpu
 t line 290.
 (pdftex.def)             Requested size: 345.0pt x 129.37639pt.
 
-<./figs/size_averaged.pdf, id=85, 909.44565pt x 674.13458pt>
+<./figs/size_averaged.pdf, id=89, 909.44565pt x 674.13458pt>
 File: ./figs/size_averaged.pdf Graphic file (type pdf)
 
 <use ./figs/size_averaged.pdf>
 Package pdftex.def Info: ./figs/size_averaged.pdf used on input line 303.
 (pdftex.def)             Requested size: 345.0pt x 255.73148pt.
- [19 <./figs/grain_color.pdf>] [20 <./figs/comparison.pdf>] [21 <./figs/FORCs_5
-4_60_66_76.pdf>] [22 <./figs/dayplot_MrsBc.pdf>]
-[23 <./figs/forc_80nm_annotated.pdf>] [24 <./figs/forc_54nm_annotated.pdf>]
-[25 <./figs/forc_62nm_annotated.pdf>] [26 <./figs/nucleation_annihilation_field
+ [20 <./figs/grain_color.pdf>] [21 <./figs/comparison.pdf>] [22 <./figs/FORCs_5
+0_60_66_76.pdf>] [23 <./figs/dayplot_MrsBc.pdf>]
+[24 <./figs/forc_80nm_annotated.pdf>] [25 <./figs/forc_54nm_annotated.pdf>]
+[26 <./figs/forc_62nm_annotated.pdf>] [27 <./figs/nucleation_annihilation_field
 s.pdf> <./figs/size_averaged.pdf
 
 pdfTeX warning: pdflatex (file ./figs/size_averaged.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >] (./FORC_diagram_PSD.aux) ) 
 Here is how much of TeX's memory you used:
- 4199 strings out of 494953
- 61292 string characters out of 6180977
- 127160 words of memory out of 5000000
- 7416 multiletter control sequences out of 15000+600000
+ 4202 strings out of 494953
+ 61340 string characters out of 6180977
+ 127232 words of memory out of 5000000
+ 7419 multiletter control sequences out of 15000+600000
  11795 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,43p,1830b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -387,10 +388,10 @@ y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on FORC_diagram_PSD.pdf (26 pages, 28542856 bytes).
+Output written on FORC_diagram_PSD.pdf (27 pages, 28333034 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
+ 243 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
