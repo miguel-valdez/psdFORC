@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  9 NOV 2017 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  9 NOV 2017 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -279,34 +279,35 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (14.47177pt too wide) in paragraph at lines 76--77
+Overfull \hbox (14.47177pt too wide) in paragraph at lines 74--75
 []\OT1/cmr/m/n/10 A fer-ro-mag-netic ma-te-rial|neglecting ther-mal and mag-ne-
 tostric-tive ef-fects|has
  []
 
 [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] (./FORC_diagram_PSD.bbl
-[15] [16] [17] [18]) [19] <./figs/grain_color.pdf, id=81, 963.6pt x 963.6pt>
+[15] [16] [17] [18] [19]) [20]
+<./figs/grain_color.pdf, id=84, 963.6pt x 963.6pt>
 File: ./figs/grain_color.pdf Graphic file (type pdf)
 
 <use ./figs/grain_color.pdf>
 Package pdftex.def Info: ./figs/grain_color.pdf used on input line 198.
 (pdftex.def)             Requested size: 345.0pt x 344.99901pt.
 
-<./figs/comparison.pdf, id=82, 771.26541pt x 329.55121pt>
+<./figs/comparison.pdf, id=85, 771.26541pt x 329.55121pt>
 File: ./figs/comparison.pdf Graphic file (type pdf)
 
 <use ./figs/comparison.pdf>
 Package pdftex.def Info: ./figs/comparison.pdf used on input line 212.
 (pdftex.def)             Requested size: 345.0pt x 147.41164pt.
 
-<./figs/FORCs_50_60_66_76.pdf, id=83, 767.94104pt x 664.59492pt>
+<./figs/FORCs_50_60_66_76.pdf, id=86, 767.94104pt x 664.59492pt>
 File: ./figs/FORCs_50_60_66_76.pdf Graphic file (type pdf)
 
 <use ./figs/FORCs_50_60_66_76.pdf>
 Package pdftex.def Info: ./figs/FORCs_50_60_66_76.pdf used on input line 225.
 (pdftex.def)             Requested size: 345.0pt x 298.56805pt.
 
-<./figs/forc_54nm_annotated.pdf, id=84, 445.18408pt x 607.79195pt>
+<./figs/forc_54nm_annotated.pdf, id=87, 445.18408pt x 607.79195pt>
 File: ./figs/forc_54nm_annotated.pdf Graphic file (type pdf)
 
 <use ./figs/forc_54nm_annotated.pdf>
@@ -314,30 +315,30 @@ Package pdftex.def Info: ./figs/forc_54nm_annotated.pdf used on input line 238.
 
 (pdftex.def)             Requested size: 345.0pt x 471.03389pt.
 
-<./figs/dayplot_MrsBc.pdf, id=85, 925.05597pt x 346.89601pt>
+<./figs/dayplot_MrsBc.pdf, id=88, 925.05597pt x 346.89601pt>
 File: ./figs/dayplot_MrsBc.pdf Graphic file (type pdf)
 
 <use ./figs/dayplot_MrsBc.pdf>
 Package pdftex.def Info: ./figs/dayplot_MrsBc.pdf used on input line 251.
 (pdftex.def)             Requested size: 345.0pt x 129.37639pt.
 
-<./figs/forc_80nm_annotated.pdf, id=86, 442.43694pt x 605.33354pt>
-File: ./figs/forc_80nm_annotated.pdf Graphic file (type pdf)
-
-<use ./figs/forc_80nm_annotated.pdf>
-Package pdftex.def Info: ./figs/forc_80nm_annotated.pdf used on input line 264.
-
-(pdftex.def)             Requested size: 345.0pt x 472.04742pt.
-
-<./figs/forc_62nm_annotated.pdf, id=87, 445.18411pt x 610.68275pt>
+<./figs/forc_62nm_annotated.pdf, id=89, 445.18411pt x 610.68275pt>
 File: ./figs/forc_62nm_annotated.pdf Graphic file (type pdf)
 
 <use ./figs/forc_62nm_annotated.pdf>
-Package pdftex.def Info: ./figs/forc_62nm_annotated.pdf used on input line 277.
+Package pdftex.def Info: ./figs/forc_62nm_annotated.pdf used on input line 264.
 
 (pdftex.def)             Requested size: 345.0pt x 473.27425pt.
 
-<./figs/nucleation_annihilation_fields.pdf, id=88, 925.05597pt x 346.89601pt>
+<./figs/forc_80nm_annotated.pdf, id=90, 442.43694pt x 605.33354pt>
+File: ./figs/forc_80nm_annotated.pdf Graphic file (type pdf)
+
+<use ./figs/forc_80nm_annotated.pdf>
+Package pdftex.def Info: ./figs/forc_80nm_annotated.pdf used on input line 277.
+
+(pdftex.def)             Requested size: 345.0pt x 472.04742pt.
+
+<./figs/nucleation_annihilation_fields.pdf, id=91, 925.05597pt x 346.89601pt>
 File: ./figs/nucleation_annihilation_fields.pdf Graphic file (type pdf)
 
 <use ./figs/nucleation_annihilation_fields.pdf>
@@ -345,26 +346,26 @@ Package pdftex.def Info: ./figs/nucleation_annihilation_fields.pdf used on inpu
 t line 290.
 (pdftex.def)             Requested size: 345.0pt x 129.37639pt.
 
-<./figs/size_averaged.pdf, id=89, 909.44565pt x 674.13458pt>
+<./figs/size_averaged.pdf, id=92, 909.44565pt x 674.13458pt>
 File: ./figs/size_averaged.pdf Graphic file (type pdf)
 
 <use ./figs/size_averaged.pdf>
 Package pdftex.def Info: ./figs/size_averaged.pdf used on input line 303.
 (pdftex.def)             Requested size: 345.0pt x 255.73148pt.
- [20 <./figs/grain_color.pdf>] [21 <./figs/comparison.pdf>] [22 <./figs/FORCs_5
-0_60_66_76.pdf>] [23 <./figs/forc_54nm_annotated.pdf>] [24 <./figs/dayplot_MrsB
-c.pdf>] [25 <./figs/forc_80nm_annotated.pdf>]
-[26 <./figs/forc_62nm_annotated.pdf>] [27 <./figs/nucleation_annihilation_field
+ [21 <./figs/grain_color.pdf>] [22 <./figs/comparison.pdf>] [23 <./figs/FORCs_5
+0_60_66_76.pdf>] [24 <./figs/forc_54nm_annotated.pdf>] [25 <./figs/dayplot_MrsB
+c.pdf>] [26 <./figs/forc_62nm_annotated.pdf>]
+[27 <./figs/forc_80nm_annotated.pdf>] [28 <./figs/nucleation_annihilation_field
 s.pdf> <./figs/size_averaged.pdf
 
 pdfTeX warning: pdflatex (file ./figs/size_averaged.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >] (./FORC_diagram_PSD.aux) ) 
 Here is how much of TeX's memory you used:
- 4202 strings out of 494953
- 61340 string characters out of 6180977
- 127232 words of memory out of 5000000
- 7419 multiletter control sequences out of 15000+600000
+ 4205 strings out of 494953
+ 61414 string characters out of 6180977
+ 127282 words of memory out of 5000000
+ 7422 multiletter control sequences out of 15000+600000
  11795 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,43p,1830b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -387,10 +388,10 @@ y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on FORC_diagram_PSD.pdf (27 pages, 28333191 bytes).
+Output written on FORC_diagram_PSD.pdf (28 pages, 28335994 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 246 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

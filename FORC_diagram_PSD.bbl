@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -77,6 +77,11 @@ Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
 Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
   permeability in ferromagnetic bodies. Phys. Z. Sowjetunion 8~(153), 101--114.
 
+\bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
+Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
+  603--608.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.1986.1064347}
+
 \bibitem[{Muxworthy et~al.(2004)Muxworthy, Heslop, and
   Williams}]{Muxworthy2004}
 Muxworthy, A., Heslop, D., Williams, W., 2004. Influence of magnetostatic
@@ -89,11 +94,11 @@ Muxworthy, A., Williams, W., 2005. Magnetostatic interaction fields in
   first-order-reversal-curve diagrams. J. Appl. Phys. 97~(6), 063905.
 \newline\urlprefix\url{https://dx.doi.org/10.1063/1.1861518}
 
-\bibitem[{Muxworthy and Williams(2006)}]{Muxworthy2006}
-Muxworthy, A.~R., Williams, W., 2006. Critical single-domain/multidomain grain
-  sizes in noninteracting and interacting elongated magnetite particles:
-  {I}mplications for magnetosomes. J. Geophys. Res. 111~(B12).
-\newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004588}
+\bibitem[{Muxworthy et~al.(2006)Muxworthy, King, and Odling}]{Muxworthy2006B}
+Muxworthy, A.~R., King, J.~G., Odling, N., 2006. Magnetic hysteresis properties
+  of interacting and noninteracting micron-sized magnetite produced by electron
+  beam lithography. Geochem. Geophys. Geosyst. 7~(7).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2006GC001309}
 
 \bibitem[{Nagy et~al.(2017)Nagy, Williams, Muxworthy, Fabian, Almeida,
   {\'O}~Conbhu{\'i}, and Shcherbakov}]{Nagy2017}
@@ -105,7 +110,7 @@ Nagy, L., Williams, W., Muxworthy, A.~R., Fabian, K., Almeida, T.~P.,
 
 \bibitem[{Newell(2005)}]{Newell2005}
 Newell, A.~J., 2005. A high-precision model of first-order reversal curve
-  (forc) functions for single-domain ferromagnets with uniaxial anisotropy.
+  ({FORC}) functions for single-domain ferromagnets with uniaxial anisotropy.
   Geochem. Geophys. Geosyst. 6~(5).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2004GC000877}
 
@@ -159,10 +164,10 @@ Roberts, A.~P., Heslop, D., Zhao, X., Pike, C.~R., 2014. Understanding fine
 \bibitem[{Roberts et~al.(2006)Roberts, Liu, Rowan, Chang, Carvallo, Torrent,
   and Horng}]{Roberts2006}
 Roberts, A.~P., Liu, Q., Rowan, C.~J., Chang, L., Carvallo, C., Torrent, J.,
-  Horng, C.-S., 2006. Characterization of hematite ($\alpha$-{Fe2O3}), goethite
-  ($\alpha$-{FeOOH}), greigite ({Fe3S4}), and pyrrhotite ({Fe7S8}) using
-  first-order reversal curve diagrams. Journal of Geophysical Research: Solid
-  Earth 111~(B12).
+  Horng, C.-S., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
+  goethite ($\alpha$-{FeOOH}), greigite ({Fe$_3$S$_4$}), and pyrrhotite
+  ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. Journal of
+  Geophysical Research: Solid Earth 111~(B12).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004715}
 
 \bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
