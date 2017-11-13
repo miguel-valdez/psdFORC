@@ -39,6 +39,10 @@ Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
   Magnetic fingerprints of sub-100 nm {Fe} dots. Phys. Rev. B 75~(13), 134405.
 \newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
 
+\bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
+  Press, Cambridge.
+
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
   Horng}]{Egli2010}
 Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C.-S., 2010.
@@ -142,12 +146,6 @@ Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth-Science Reviews 151,
   1--47.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
 
-\bibitem[{Roberts et~al.(2017)Roberts, Almeida, Church, Harrison, Helsop, Li,
-  Li, Muxworthy, Williams, and Zhao}]{Roberts2017}
-Roberts, A.~P., Almeida, T.~P., Church, N.~S., Harrison, R.~J., Helsop, D., Li,
-  Y., Li, J., Muxworthy, A.~R., Williams, W., Zhao, X., 2017. Resolving the
-  origin of pseudo-single domain behavior. J. Geophys. Res., in press.
-
 \bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
   Florindo}]{Roberts2011}
 Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
@@ -183,9 +181,9 @@ Snowball, I.~F., 1997. Gyroremanent magnetization and the magnetic properties
 \newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1997.tb04498.x}
 
 \bibitem[{Valdez-Grijalva and Muxworthy(2017)}]{ValdezGrijalva2017}
-Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First order reversal curve
-  diagrams of nanomagnets with cubic magnetocrystalline anisotropy. Submitted
-  to J. Magn. Magn. Mater.
+Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
+  ({FORC}) diagrams of nanomagnets with cubic magnetocrystalline anisotropy.
+  Submitted to J. Magn. Magn. Mater.
 
 \bibitem[{Valdez-Grijalva et~al.(2017)Valdez-Grijalva, Nagy, Muxworthy,
   Williams, and Fabian}]{ValdezGrijalva2017B}

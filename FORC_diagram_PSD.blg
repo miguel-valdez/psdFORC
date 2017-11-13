@@ -9,47 +9,46 @@ I was expecting a `,' or a `}'---line 144 of file references.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty journal in OConbhui2017
-Warning--empty journal in Roberts2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2017B
 You've used 33 entries,
             2821 wiz_defined-function locations,
-            886 strings with 12321 characters,
-and the built_in function-call counts, 17836 in all, are:
-= -- 1764
-> -- 1102
-< -- 11
-+ -- 417
-- -- 378
-* -- 1726
-:= -- 3254
-add.period$ -- 95
+            887 strings with 12166 characters,
+and the built_in function-call counts, 17494 in all, are:
+= -- 1746
+> -- 1038
+< -- 12
++ -- 393
+- -- 354
+* -- 1678
+:= -- 3181
+add.period$ -- 96
 call.type$ -- 33
-change.case$ -- 294
+change.case$ -- 284
 chr.to.int$ -- 33
-cite$ -- 37
+cite$ -- 36
 duplicate$ -- 578
-empty$ -- 1071
-format.name$ -- 479
-if$ -- 3465
+empty$ -- 1078
+format.name$ -- 457
+if$ -- 3416
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 34
+missing$ -- 35
 newline$ -- 133
 num.names$ -- 132
-pop$ -- 261
+pop$ -- 256
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 250
 quote$ -- 0
-skip$ -- 423
+skip$ -- 422
 stack$ -- 0
-substring$ -- 958
-swap$ -- 67
+substring$ -- 956
+swap$ -- 68
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 294
-warning$ -- 4
+type$ -- 291
+warning$ -- 3
 while$ -- 141
 width$ -- 0
 write$ -- 391
