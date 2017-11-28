@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  13 NOV 2017 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  28 NOV 2017 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -198,18 +198,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 (./FORC_diagram_PSD.aux)
 \openout1 = `FORC_diagram_PSD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -278,83 +278,96 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (14.47177pt too wide) in paragraph at lines 74--75
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Overfull \hbox (14.47177pt too wide) in paragraph at lines 92--93
 []\OT1/cmr/m/n/10 A fer-ro-mag-netic ma-te-rial|neglecting ther-mal and mag-ne-
 tostric-tive ef-fects|has
  []
 
-[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] (./FORC_diagram_PSD.bbl
-[15] [16] [17] [18]) [19] <./figs/FIG_01.pdf, id=81, 963.6pt x 963.6pt>
+[4] [5] [6] [7] [8] [9]
+Overfull \hbox (3.8039pt too wide) in paragraph at lines 156--156
+[]\OT1/cmr/m/n/10 The elon-gated, neg-a-tive ridge typ-i-cal of SD par-ti-cles 
+with cu-bic MCA (Valdez-
+ []
+
+[10] [11] [12]
+
+Package natbib Warning: Citation `Valdez-Grijalva2017B' on page 13 undefined on
+ input line 174.
+
+[13] [14] (./FORC_diagram_PSD.bbl [15] [16] [17] [18] [19]) [20]
+<./figs/FIG_01.pdf, id=84, 963.6pt x 963.6pt>
 File: ./figs/FIG_01.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_01.pdf>
-Package pdftex.def Info: ./figs/FIG_01.pdf used on input line 200.
+ <use ./figs/FIG_01.pdf>
+Package pdftex.def Info: ./figs/FIG_01.pdf used on input line 207.
 (pdftex.def)             Requested size: 345.0pt x 344.99901pt.
- <./figs/FIG_02.pdf, id=82, 771.26541pt x 329.55121pt>
+
+<./figs/FIG_02.pdf, id=85, 771.26541pt x 329.55121pt>
 File: ./figs/FIG_02.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_02.pdf>
-Package pdftex.def Info: ./figs/FIG_02.pdf used on input line 214.
+ <use ./figs/FIG_02.pdf>
+Package pdftex.def Info: ./figs/FIG_02.pdf used on input line 221.
 (pdftex.def)             Requested size: 345.0pt x 147.41164pt.
- <./figs/FIG_03.pdf, id=83, 767.94104pt x 664.59492pt>
+
+<./figs/FIG_03.pdf, id=86, 767.94104pt x 664.59492pt>
 File: ./figs/FIG_03.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_03.pdf>
-Package pdftex.def Info: ./figs/FIG_03.pdf used on input line 227.
+ <use ./figs/FIG_03.pdf>
+Package pdftex.def Info: ./figs/FIG_03.pdf used on input line 234.
 (pdftex.def)             Requested size: 345.0pt x 298.56805pt.
- <./figs/FIG_04.pdf, id=84, 445.18408pt x 607.79195pt>
+
+<./figs/FIG_04.pdf, id=87, 445.18408pt x 607.79195pt>
 File: ./figs/FIG_04.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_04.pdf>
-Package pdftex.def Info: ./figs/FIG_04.pdf used on input line 240.
+ <use ./figs/FIG_04.pdf>
+Package pdftex.def Info: ./figs/FIG_04.pdf used on input line 247.
 (pdftex.def)             Requested size: 345.0pt x 471.03389pt.
- <./figs/FIG_05.pdf, id=85, 925.05597pt x 346.89601pt>
+
+<./figs/FIG_05.pdf, id=88, 925.05597pt x 346.89601pt>
 File: ./figs/FIG_05.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_05.pdf>
-Package pdftex.def Info: ./figs/FIG_05.pdf used on input line 252.
+ <use ./figs/FIG_05.pdf>
+Package pdftex.def Info: ./figs/FIG_05.pdf used on input line 259.
 (pdftex.def)             Requested size: 345.0pt x 129.37639pt.
- <./figs/FIG_06.pdf, id=86, 445.18411pt x 610.68275pt>
+
+<./figs/FIG_06.pdf, id=89, 445.18411pt x 610.68275pt>
 File: ./figs/FIG_06.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_06.pdf>
-Package pdftex.def Info: ./figs/FIG_06.pdf used on input line 265.
+ <use ./figs/FIG_06.pdf>
+Package pdftex.def Info: ./figs/FIG_06.pdf used on input line 272.
 (pdftex.def)             Requested size: 345.0pt x 473.27425pt.
- <./figs/FIG_07.pdf, id=87, 442.43694pt x 605.33354pt>
+
+<./figs/FIG_07.pdf, id=90, 442.43694pt x 605.33354pt>
 File: ./figs/FIG_07.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_07.pdf>
-Package pdftex.def Info: ./figs/FIG_07.pdf used on input line 278.
+ <use ./figs/FIG_07.pdf>
+Package pdftex.def Info: ./figs/FIG_07.pdf used on input line 285.
 (pdftex.def)             Requested size: 345.0pt x 472.04742pt.
- <./figs/FIG_08.pdf, id=88, 925.05597pt x 346.89601pt>
+
+<./figs/FIG_08.pdf, id=91, 925.05597pt x 346.89601pt>
 File: ./figs/FIG_08.pdf Graphic file (type pdf)
-
-<use ./figs/FIG_08.pdf>
-Package pdftex.def Info: ./figs/FIG_08.pdf used on input line 290.
+ <use ./figs/FIG_08.pdf>
+Package pdftex.def Info: ./figs/FIG_08.pdf used on input line 297.
 (pdftex.def)             Requested size: 345.0pt x 129.37639pt.
- <./figs/FIG_09.pdf, id=89, 909.44565pt x 674.13458pt>
-File: ./figs/FIG_09.pdf Graphic file (type pdf)
 
-<use ./figs/FIG_09.pdf>
-Package pdftex.def Info: ./figs/FIG_09.pdf used on input line 303.
+<./figs/FIG_09.pdf, id=92, 909.44565pt x 674.13458pt>
+File: ./figs/FIG_09.pdf Graphic file (type pdf)
+ <use ./figs/FIG_09.pdf>
+Package pdftex.def Info: ./figs/FIG_09.pdf used on input line 310.
 (pdftex.def)             Requested size: 345.0pt x 255.73148pt.
- [20 <./figs/FIG_01.pdf>] [21 <./figs/FIG_02.pdf>]
-[22 <./figs/FIG_03.pdf>] [23 <./figs/FIG_04.pdf>] [24 <./figs/FIG_05.pdf>]
-[25 <./figs/FIG_06.pdf>] [26 <./figs/FIG_07.pdf>] [27 <./figs/FIG_08.pdf> <./fi
-gs/FIG_09.pdf
+
+
+Package natbib Warning: There were undefined citations.
+
+[21 <./figs/FIG_01.pdf>] [22 <./figs/FIG_02.pdf>] [23 <./figs/FIG_03.pdf>]
+[24 <./figs/FIG_04.pdf>] [25 <./figs/FIG_05.pdf>] [26 <./figs/FIG_06.pdf>]
+[27 <./figs/FIG_07.pdf>] [28 <./figs/FIG_08.pdf> <./figs/FIG_09.pdf
 
 pdfTeX warning: pdflatex (file ./figs/FIG_09.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
 >] (./FORC_diagram_PSD.aux) ) 
 Here is how much of TeX's memory you used:
- 4206 strings out of 494953
- 60922 string characters out of 6180977
- 126208 words of memory out of 5000000
- 7423 multiletter control sequences out of 15000+600000
+ 4241 strings out of 494953
+ 61445 string characters out of 6180977
+ 126637 words of memory out of 5000000
+ 7458 multiletter control sequences out of 15000+600000
  11795 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,9n,43p,1692b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,43p,1794b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -363,21 +376,22 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on FORC_diagram_PSD.pdf (27 pages, 28334417 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on FORC_diagram_PSD.pdf (28 pages, 28345995 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

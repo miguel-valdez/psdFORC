@@ -1,23 +1,31 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Brown(1963)}]{Brown}
-Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
+\bibitem[{Almeida et~al.(2014)Almeida, Kasama, Muxworthy, Williams, Nagy, and
+  Dunin-Borkowski}]{Almeida2014}
+Almeida, T.~P., Kasama, T., Muxworthy, A.~R., Williams, W., Nagy, L.,
+  Dunin-Borkowski, R.~E., 2014. Observing thermomagnetic stability of nonideal
+  magnetite particles: good paleomagnetic recorders? Geophys. Res. Lett.
+  41~(20), 7041--7047.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2014GL061432}
+
+\bibitem[{Brown~Jr.(1963)}]{Brown}
+Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
 
 \bibitem[{Carvallo et~al.(2006)Carvallo, Muxworthy, and Dunlop}]{Carvallo2006}
 Carvallo, C., Muxworthy, A.~R., Dunlop, D.~J., 2006. First-order reversal curve
-  ({FORC}) diagrams of magnetic mixtures: {M}icromagnetic models and
-  measurements. Phys. Earth Planet. In. 154~(3), 308--322.
+  ({FORC}) diagrams of magnetic mixtures: micromagnetic models and
+  measurements. Phys. Earth Planet. Inter. 154~(3), 308--322.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.pepi.2005.06.017}
 
 \bibitem[{Carvallo et~al.(2003)Carvallo, Muxworthy, Dunlop, and
   Williams}]{Carvallo2003}
 Carvallo, C., Muxworthy, A.~R., Dunlop, D.~J., Williams, W., 2003.
   Micromagnetic modeling of first-order reversal curve ({FORC}) diagrams for
-  single-domain and pseudo-single-domain magnetite. Earth Planet. Sc. Lett.
+  single-domain and pseudo-single-domain magnetite. Earth Planet. Sci. Lett.
   213~(3), 375--390.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/S0012-821X(03)00320-0}
 
@@ -30,8 +38,8 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
 
 \bibitem[{Day et~al.(1977)Day, Fuller, and Schmidt}]{Day1977}
 Day, R., Fuller, M., Schmidt, V.~A., 1977. Hysteresis properties of
-  titanomagnetites: {G}rain-size and compositional dependence. Phys. Earth
-  Planet. In. 13~(4), 260--267.
+  titanomagnetites: grain-size and compositional dependence. Phys. Earth
+  Planet. Inter. 13~(4), 260--267.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/0031-9201(77)90108-X}
 
 \bibitem[{Dumas et~al.(2007)Dumas, Li, Roshchin, Schuller, and Liu}]{Dumas2007}
@@ -39,34 +47,20 @@ Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
   Magnetic fingerprints of sub-100 nm {Fe} dots. Phys. Rev. B 75~(13), 134405.
 \newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
 
-\bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
-Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
-  Press, Cambridge.
-
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
   Horng}]{Egli2010}
-Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C.-S., 2010.
+Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C., 2010.
   Detection of noninteracting single domain particles using first-order
   reversal curve diagrams. Geochem. Geophys. Geosyst. 11~(1).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002916}
 
 \bibitem[{Fredkin and Koehler(1990)}]{Fredkin1990}
 Fredkin, D.~R., Koehler, T.~R., 1990. Hybrid method for computing demagnetizing
-  fields. IEEE T. Magn. 26~(2), 415--417.
+  fields. IEEE Trans. Magn. 26~(2), 415--417.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/20.106342}
 
-\bibitem[{Guowei et~al.(2014)Guowei, Baomin, Feng, Novakova, Krivenkov,
-  Kiseleva, Chang, Jiancun, Polyakov, Blake, de~Groot, and
-  Palstra}]{Guowei2014}
-Guowei, L., Baomin, Z., Feng, Y., Novakova, A.~A., Krivenkov, M.~S., Kiseleva,
-  T.~Y., Chang, L., Jiancun, R., Polyakov, A.~O., Blake, G.~R., de~Groot,
-  R.~A., Palstra, T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$
-  greigite microcrystals for magnetic and electrochemical performance. Chem.
-  Mater. 26~(20), 5821--5829.
-\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
-
 \bibitem[{Harrison and Lascu(2014)}]{Harrison2014}
-Harrison, R.~J., Lascu, I., 2014. Forculator: A micromagnetic tool for
+Harrison, R.~J., Lascu, I., 2014. {FORC}ulator: a micromagnetic tool for
   simulating first-order reversal curve diagrams. Geochem. Geophys. Geosyst.
   15~(12), 4671--4691.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014GC005582}
@@ -81,9 +75,18 @@ Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
 Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
   permeability in ferromagnetic bodies. Phys. Z. Sowjetunion 8~(153), 101--114.
 
+\bibitem[{Li et~al.(2014)Li, Zhang, Yu, Novakova, Krivenkov, Kiseleva, Chang,
+  Rao, Polyakov, Blake, de~Groot, and Palstra}]{Li2014}
+Li, G., Zhang, B., Yu, F., Novakova, A.~A., Krivenkov, M.~S., Kiseleva, T.~Y.,
+  Chang, L., Rao, J., Polyakov, A.~O., Blake, G.~R., de~Groot, R.~A., Palstra,
+  T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$ greigite
+  microcrystals for magnetic and electrochemical performance. Chem. Mater.
+  26~(20), 5821--5829.
+\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
+
 \bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
-Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
-  603--608.
+Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE Trans. Magn.
+  22~(5), 603--608.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.1986.1064347}
 
 \bibitem[{Muxworthy et~al.(2004)Muxworthy, Heslop, and
@@ -108,8 +111,8 @@ Muxworthy, A.~R., King, J.~G., Odling, N., 2006. Magnetic hysteresis properties
   {\'O}~Conbhu{\'i}, and Shcherbakov}]{Nagy2017}
 Nagy, L., Williams, W., Muxworthy, A.~R., Fabian, K., Almeida, T.~P.,
   {\'O}~Conbhu{\'i}, P., Shcherbakov, V.~P., 2017. Stability of equidimensional
-  pseudo-single domain magnetite over billion-year timescales. P. Natl. Acad.
-  Sci. USA 114~(39), 10356--10360.
+  pseudo-single domain magnetite over billion-year timescales. Proc. Natl.
+  Acad. Sci. USA 114~(39), 10356--10360.
 \newline\urlprefix\url{https://dx.doi.org/10.1073/pnas.1708344114}
 
 \bibitem[{Newell(2005)}]{Newell2005}
@@ -130,6 +133,12 @@ Pike, C., Fernandez, A., 1999. An investigation of magnetic reversal in
   Phys. 85~(9), 6668--6676.
 \newline\urlprefix\url{https://dx.doi.org/10.1063/1.370177}
 
+\bibitem[{Pike et~al.(2001)Pike, Roberts, Dekkers, and Verosub}]{Pike2001}
+Pike, C.~R., Roberts, A.~P., Dekkers, M.~J., Verosub, K.~L., 2001. An
+  investigation of multi-domain hysteresis mechanisms using {FORC} diagrams.
+  Phys. Earth Planet. Inter. 126~(1), 11--25.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0031-9201(01)00241-2}
+
 \bibitem[{Pike et~al.(1999)Pike, Roberts, and Verosub}]{Pike1999}
 Pike, C.~R., Roberts, A.~P., Verosub, K.~L., 1999. Characterizing interactions
   in fine magnetic particle systems using first order reversal curves. J. Appl.
@@ -142,36 +151,42 @@ Rave, W., Ramst{\"o}ck, K., Hubert, A., 1998. Corners and nucleation in
 \newline\urlprefix\url{https://dx.doi.org/10.1016/S0304-8853(97)01086-X}
 
 \bibitem[{Roberts(2015)}]{Roberts2015}
-Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth-Science Reviews 151,
-  1--47.
+Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth Sci. Rev. 151, 1--47.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
+
+\bibitem[{Roberts et~al.(2017)Roberts, Almeida, Church, Harrison, Helsop, Li,
+  Li, Muxworthy, Williams, and Zhao}]{Roberts2017}
+Roberts, A.~P., Almeida, T.~P., Church, N.~S., Harrison, R.~J., Helsop, D., Li,
+  Y., Li, J., Muxworthy, A.~R., Williams, W., Zhao, X., 2017. Resolving the
+  origin of pseudo-single domain magnetic behavior. J. Geophys. Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2017JB014860}
 
 \bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
   Florindo}]{Roberts2011}
 Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
-  Magnetic properties of sedimentary greigite ({F}e$_3${S}$_4$): An update.
+  Magnetic properties of sedimentary greigite ({F}e$_3${S}$_4$): an update.
   Rev. Geophys. 49~(1).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2010RG000336}
 
 \bibitem[{Roberts et~al.(2014)Roberts, Heslop, Zhao, and Pike}]{Roberts2014}
 Roberts, A.~P., Heslop, D., Zhao, X., Pike, C.~R., 2014. Understanding fine
   magnetic particle systems through use of first-order reversal curve diagrams.
-  Reviews of Geophysics 52~(4), 557--602.
+  Rev. Geophys. 52~(4), 557--602.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014RG000462}
 
 \bibitem[{Roberts et~al.(2006)Roberts, Liu, Rowan, Chang, Carvallo, Torrent,
   and Horng}]{Roberts2006}
 Roberts, A.~P., Liu, Q., Rowan, C.~J., Chang, L., Carvallo, C., Torrent, J.,
-  Horng, C.-S., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
+  Horng, C., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
   goethite ($\alpha$-{FeOOH}), greigite ({Fe$_3$S$_4$}), and pyrrhotite
-  ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. Journal of
-  Geophysical Research: Solid Earth 111~(B12).
+  ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. J. Geophys. Res.
+  111~(B12).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004715}
 
 \bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
 Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
-  diagrams: {A} new tool for characterizing the magnetic properties of natural
-  samples. J. Geophys. Res.: Sol. Ea. 105~(B12), 28461--28475.
+  diagrams: a new tool for characterizing the magnetic properties of natural
+  samples. J. Geophys. Res. 105~(B12), 28461--28475.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
 
 \bibitem[{Snowball(1997)}]{Snowball1997}
@@ -189,7 +204,7 @@ Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
   Williams, and Fabian}]{ValdezGrijalva2017B}
 Valdez-Grijalva, M.~A., Nagy, L., Muxworthy, A.~R., Williams, W., Fabian, K.,
   2017. The magnetic structure and palaeomagnetic recording fidelity of
-  sub-micron greigite ({F}e$_3${S}$_4$). Submitted to Earth Planet. Sc. Lett.
+  sub-micron greigite ({F}e$_3${S}$_4$). Submitted to Earth Planet. Sci. Lett.
 
 \bibitem[{Vasiliev et~al.(2008)Vasiliev, Franke, Meeldijk, Dekkers, Langereis,
   and Krigjsman}]{Vasiliev2008}
@@ -203,5 +218,12 @@ Winklhofer, M., Chang, L., Eder, S. H.~K., 2014. On the magnetocrystalline
   anisotropy of greigite ({F}e$_3${S}$_4$). Geochem. Geophys. Geosyst. 15~(4),
   1558--1579.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC005121}
+
+\bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
+  Li}]{Zhao2017}
+Zhao, X., Roberts, A.~P., Heslop, D., Paterson, G.~A., Li, Y., Li, J., 2017.
+  Magnetic domain state diagnosis using hysteresis reversal curves. J. Geophys.
+  Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2016JB013683}
 
 \end{thebibliography}

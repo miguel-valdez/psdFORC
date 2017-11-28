@@ -3,53 +3,54 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: FORC_diagram_PSD.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 144 of file references.bib
+I was expecting a `,' or a `}'---line 156 of file references.bib
  : 
  : //publisher={Wiley Online Library}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Valdez-Grijalva2017B"
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2017B
-You've used 33 entries,
+You've used 36 entries,
             2821 wiz_defined-function locations,
-            887 strings with 12166 characters,
-and the built_in function-call counts, 17494 in all, are:
-= -- 1746
-> -- 1038
-< -- 12
-+ -- 393
-- -- 354
-* -- 1678
-:= -- 3181
-add.period$ -- 96
-call.type$ -- 33
-change.case$ -- 284
-chr.to.int$ -- 33
-cite$ -- 36
-duplicate$ -- 578
-empty$ -- 1078
-format.name$ -- 457
-if$ -- 3416
+            906 strings with 12899 characters,
+and the built_in function-call counts, 19635 in all, are:
+= -- 1930
+> -- 1239
+< -- 11
++ -- 470
+- -- 426
+* -- 1909
+:= -- 3588
+add.period$ -- 105
+call.type$ -- 36
+change.case$ -- 324
+chr.to.int$ -- 36
+cite$ -- 39
+duplicate$ -- 630
+empty$ -- 1166
+format.name$ -- 536
+if$ -- 3805
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 35
-newline$ -- 133
-num.names$ -- 132
-pop$ -- 256
+missing$ -- 37
+newline$ -- 146
+num.names$ -- 144
+pop$ -- 291
 preamble$ -- 1
-purify$ -- 250
+purify$ -- 286
 quote$ -- 0
-skip$ -- 422
+skip$ -- 459
 stack$ -- 0
-substring$ -- 956
-swap$ -- 68
+substring$ -- 1041
+swap$ -- 73
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 291
+type$ -- 321
 warning$ -- 3
-while$ -- 141
+while$ -- 154
 width$ -- 0
-write$ -- 391
+write$ -- 427
 (There was 1 error message)
