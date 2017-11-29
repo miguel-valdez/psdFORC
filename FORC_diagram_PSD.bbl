@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{37}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -46,6 +46,10 @@ Day, R., Fuller, M., Schmidt, V.~A., 1977. Hysteresis properties of
 Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
   Magnetic fingerprints of sub-100 nm {Fe} dots. Phys. Rev. B 75~(13), 134405.
 \newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
+
+\bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
+  Press, Cambridge.
 
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
   Horng}]{Egli2010}
