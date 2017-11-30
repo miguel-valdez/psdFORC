@@ -1,0 +1,23 @@
+added refs
+
+Egli2014
+Roberts2017 (updated)
+Almeida2014
+Guowei2014 (modified chinese name order) changed to Li2014
+Brown (modified)
+Pike2001
+Zhao2017
+Roberts2015
+Roberts2014
+Roberts2006
+Roberts2000 (keep capital letter after :)
+
+Carvallo2006 (modified Andrew's way)
+Carvallo2003 (modified Andrew's way)
+Day1977 (modified Andrew's way)
+Fredkin1990 (modified Andrew's way)
+Harrison2014 (modified Andrew's way)
+Mayergoyz1986 (modified Andrew's way)
+Nagy2017 (modified Andrew's way)
+Roberts2011 (modified Andrew's way)
+Valdez-Grijalva2017B (modified Andrew's way)
