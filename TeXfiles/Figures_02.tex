@@ -1,0 +1,34 @@
+\documentclass[review]{elsarticle}
+%-----------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\graphicspath{{./figs/}}
+
+\newcommand{\roughly}{{\raise.17ex\hbox{$\scriptstyle\sim$}}}
+\newcommand{\nm}{\,\text{nm}}
+\newcommand{\mT}{\,\text{mT}}
+
+%-----------------------------------------------------
+
+\makeatletter
+\renewcommand{\fnum@figure}{Figure 2}
+\makeatother
+
+\thispagestyle{empty}
+
+\begin{document}
+\allowdisplaybreaks
+
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{FIG_02BW.pdf}
+%\includegraphics[width=\textwidth]{FIG_02BW_LR.pdf}
+\includegraphics[width=\textwidth]{FIG_02.pdf}
+%\includegraphics[width=\textwidth]{FIG_02_LR.pdf}
+\caption{Comparison between FORC diagrams produced with dipole and micromagnetic models. a) Dipole model; FORC diagram (SF=4) for a non-interacting ensemble of idealised (size-independent) SD greigite particles obtained using the model of Valdez-Grijalva and Muxworthy (2018). b) Micromagnetic model; FORC diagram (SF=4) for a non-interacting ensemble of 30$\nm$ truncated octahedral greigite particles. Up to 48$\nm$, the FORC diagram is that of an ensemble of coherently rotating SD moments. For particles larger than 48$\nm$, magnetic vortex effects become important. Dashed contour lines denote negative $\rho$ values.}
+\label{FIG_02}
+\end{figure}
+
+\end{document}

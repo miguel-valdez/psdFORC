@@ -12,8 +12,8 @@ Almeida, T.~P., Kasama, T., Muxworthy, A.~R., Williams, W., Nagy, L.,
   41~(20), 7041--7047.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014GL061432}
 
-\bibitem[{Brown~Jr.(1963)}]{Brown}
-Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
+\bibitem[{Brown(1963)}]{Brown}
+Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
 
 \bibitem[{Carvallo et~al.(2006)Carvallo, Muxworthy, and Dunlop}]{Carvallo2006}
 Carvallo, C., Muxworthy, A.~R., Dunlop, D.~J., 2006. First-order reversal curve
@@ -53,7 +53,7 @@ Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
 
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
   Horng}]{Egli2010}
-Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C., 2010.
+Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C.~S., 2010.
   Detection of noninteracting single domain particles using first-order
   reversal curve diagrams. Geochem. Geophys. Geosyst. 11~(1).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002916}
@@ -181,7 +181,7 @@ Roberts, A.~P., Heslop, D., Zhao, X., Pike, C.~R., 2014. Understanding fine
 \bibitem[{Roberts et~al.(2006)Roberts, Liu, Rowan, Chang, Carvallo, Torrent,
   and Horng}]{Roberts2006}
 Roberts, A.~P., Liu, Q., Rowan, C.~J., Chang, L., Carvallo, C., Torrent, J.,
-  Horng, C., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
+  Horng, C.~S., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
   goethite ($\alpha$-{FeOOH}), greigite ({Fe$_3$S$_4$}), and pyrrhotite
   ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. J. Geophys. Res.
   111~(B12).
@@ -199,16 +199,16 @@ Snowball, I.~F., 1997. Gyroremanent magnetization and the magnetic properties
   624--636.
 \newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1997.tb04498.x}
 
-\bibitem[{Valdez-Grijalva and Muxworthy(2017)}]{ValdezGrijalva2017}
-Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
+\bibitem[{Valdez-Grijalva and Muxworthy(2018)}]{ValdezGrijalva2017}
+Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2018. First-order reversal curve
   ({FORC}) diagrams of nanomagnets with cubic magnetocrystalline anisotropy.
   Submitted to J. Magn. Magn. Mater.
 
-\bibitem[{Valdez-Grijalva et~al.(2017)Valdez-Grijalva, Nagy, Muxworthy,
+\bibitem[{Valdez-Grijalva et~al.(2018)Valdez-Grijalva, Nagy, Muxworthy,
   Williams, and Fabian}]{ValdezGrijalva2017B}
 Valdez-Grijalva, M.~A., Nagy, L., Muxworthy, A.~R., Williams, W., Fabian, K.,
-  2017. The magnetic structure and palaeomagnetic recording fidelity of
-  sub-micron greigite ({F}e$_3${S}$_4$). Submitted to Earth Planet. Sci. Lett.
+  2018. The magnetic structure and palaeomagnetic recording fidelity of
+  sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sci. Lett., in press.
 
 \bibitem[{Vasiliev et~al.(2008)Vasiliev, Franke, Meeldijk, Dekkers, Langereis,
   and Krigjsman}]{Vasiliev2008}

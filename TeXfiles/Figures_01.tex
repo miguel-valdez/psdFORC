@@ -1,0 +1,34 @@
+\documentclass[review]{elsarticle}
+%-----------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\graphicspath{{./figs/}}
+
+\newcommand{\roughly}{{\raise.17ex\hbox{$\scriptstyle\sim$}}}
+\newcommand{\nm}{\,\text{nm}}
+\newcommand{\mT}{\,\text{mT}}
+
+%-----------------------------------------------------
+
+\makeatletter
+\renewcommand{\fnum@figure}{Figure 1}
+\makeatother
+
+\thispagestyle{empty}
+
+\begin{document}
+\allowdisplaybreaks
+
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\textwidth]{FIG_01BW.pdf}
+%\includegraphics[width=\textwidth]{FIG_01BW_LR.pdf}
+\includegraphics[width=\textwidth]{FIG_01.pdf}
+%\includegraphics[width=\textwidth]{FIG_01_LR.pdf}
+\caption{Model geometry and field orientations. The most common morphology for authigenic greigite is truncated octahedral. To avoid the high density of field orientations necessary near the sphere poles when using a regular grid, 500 random field orientations (arrows) were chosen from a uniform distribution over a sector of the unit sphere. The periodicity of the magnetocrystalline anisotropy and particle symmetry allow modelling of the effects of field orientations on only a sector of the sphere without loss of generality.}
+\label{FIG_01}
+\end{figure}
+
+\end{document}
